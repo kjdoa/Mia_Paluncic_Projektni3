@@ -55,5 +55,8 @@ h1{font-size: 20px;
    align-content: center;
 	color: floralwhite;}
 
+@font-face{ font-family: "MiaPaluncic1";
+	   src: url('MiaPaluncic1.ttf') format('truetype');
+
 span{font-weight: bolder;}
 	
