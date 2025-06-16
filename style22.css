@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+li {display: inline;}
+ul {list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: lightcyan;
+	align-content: center;
+	border-width:medium;
+	border-color: rosybrown;
+	border-radius: 25px;}
+
+li {float: left;}
+
+li a {display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-weight: bold;}
+
+li a:hover {background-color: ghostwhite;
+			font-weight: bold;}
+
+body {background-image: url("Pozadine/pozadina2.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	allign:center;}
+
+p{color: white;
+  font-size: 20px;
+  align-content: center;
+  text-align: center;
+font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";}
+
+
+h2 {font-size: 30px;
+    background-color: lightcyan;
+	text-align: center;
+    align-content: center;
+	border-width:thick;
+	border-color: antiquewhite;
+	border-radius: 25px;
+	padding: 20px;
+	margin: 30px;}
+
+h1{font-size: 20px;
+   text-align: center;
+   align-content: center;
+   color: floralwhite;}
+
+span{font-weight: bolder;}
+	 
+
+
+.box {display: flex;}
+
+.ljevo {
+      width: 50%;
+      padding: 10px;
+    }
+
+    .desno {
+      width: 50%;
+      padding: 10px;}
+
+    .Životinje {
+	width: 70%;
+	align-content: left;
+	border-width:thick;
+	padding: 50px;
+		border-bottom: 150px;
+	background-color: lightblue;
+	border-color: lightblue;
+	border-radius: 25px;}
+
+    .SŽ {background-color: lightblue;
+      margin-bottom: 10px;
+	  border-radius: 25px;
+		  padding: 0px}
+
+    .AII {width: 95%;
+	 	align-content: right;
+	 	border-width:medium;
+	 	background-color: lightblue;
+	 	border-color: lightblue;
+	 	border-radius: 25px;
+		padding: 20px;}
+   
+
+    img {width: 150px;
+	  height: 150px;
+	  display: table-column;
+      margin-bottom: 5px;
+		padding: 10px;}
+
+.VID {width: 60%;
+	align-content: left;
+	border-width:thick;
+	padding: 50px;
+		border-bottom: 150px;
+	background-color: lightblue;
+	border-color: lightblue;
+	border-radius: 25px;}
